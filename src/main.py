@@ -15,9 +15,10 @@ def scraper(args):
     parser = argparse.ArgumentParser(description="Scrapes data from various Atlanta data sources.")
     parser.add_argument('--what', dest="what", required=True, choices=list(datasources.keys()), help="what to scrape")
     parser.add_argument('--out', dest="out", default=None, help="output file for scraped result")
+    parser.add_argument('--cached', dest="use_cache", default=False,const=True,action="store_const")
     parsedArgs = parser.parse_args(args)
 
-    datasources[parsedArgs.what].run(parsedArgs.out)
+    datasources[parsedArgs.what].run(parsedArgs)
 
 def server(args):
     parser = argparse.ArgumentParser(description="Serves scraped data from various Atlanta data sources.")

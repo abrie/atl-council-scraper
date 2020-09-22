@@ -1,17 +1,17 @@
 import requests
 import json
 import sys
-import pathlib
+import os
+
 from utils.makefiledir import makefiledir
 
 class Fetcher:
-    def __init__(self):
-        self.use_cached = False
-        self.pages = {}
+    def __init__(self, cacheDest=None):
+        self.setCacheDest(cacheDest)
 
-    def fetch(self, url):
-        if self.use_cached:
-            print("Use cached url:", url)
+    def fetch(self, url, use_cache=False):
+        if self.has_cache and use_cache:
+            print("Using cached url:", url)
             cached = self.pages[url]
             return cached["text"], cached["status"]
         else:
@@ -20,15 +20,24 @@ class Fetcher:
             self.pages[url] = {"text":r.text, "status":r.status_code}
             return r.text, r.status_code
 
-    def use(self, path):
-        file = pathlib.Path(path)
-        if file.exists():
-            with open(file, "r") as f:
-                self.pages = json.loads(f.read())
-                self.use_cached = True
+    def setCacheDest(self, path):
+        self.cacheDest = path
 
-    def save(self, path):
-        makefiledir(path)
-        with open(path, "w+") as f:
-            f.write(json.dumps(self.pages))
+        if self.cacheDest == None:
+            self.pages = {}
+            self.has_cache = False
+        elif os.path.isfile(self.cacheDest):
+            with open(self.cacheDest, "r") as f:
+                self.pages = json.loads(f.read())
+                self.has_cache = True
+        else:
+            self.has_cache = False
+            self.pages = {}
+            print("Warning: cache requested, but none exists.")
+
+    def storeCache(self):
+        if self.cacheDest != None:
+            makefiledir(self.cacheDest)
+            with open(self.cacheDest, "w+") as f:
+                f.write(json.dumps(self.pages))
 

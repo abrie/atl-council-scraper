@@ -10,8 +10,8 @@ URL = "https://citycouncil.atlantaga.gov"
 CACHE = "data/raw-citycouncil.json"
 FINISHED = "data/citycouncil.json"
 
-def getAllCouncilMembers(fetcher):
-    text, status_code = fetcher.fetch(URL)
+def getAllCouncilMembers(fetcher, use_cache=False):
+    text, status_code = fetcher.fetch(URL, use_cache=use_cache)
     if status_code != 200:
         print("Failed to contact", URL, r.status_code)
         sys.exit(-1)
@@ -65,8 +65,8 @@ def extractEmails(p):
         emails = list(dict.fromkeys(emails))
         return emails
 
-def getCouncilMember(fetcher, href):
-    text, status_code = fetcher.fetch(href)
+def getCouncilMember(fetcher, href, use_cache=False):
+    text, status_code = fetcher.fetch(href, use_cache=use_cache)
     if status_code != 200:
         return {'href': href, 'error': r.status_code}
 
@@ -85,14 +85,14 @@ def getCouncilMember(fetcher, href):
             'image': image,
             'contact': contact}
 
-def run(out):
-    fetcher = Fetcher()
-    fetcher.use(CACHE) #Use cached data.
-    members = [getCouncilMember(fetcher, href) for href in getAllCouncilMembers(fetcher)]
+def run(args):
+    fetcher = Fetcher(cacheDest=CACHE)
+    members = [getCouncilMember(fetcher, href, use_cache=args.use_cache)
+               for href in getAllCouncilMembers(fetcher, use_cache=args.use_cache)]
 
-    fetcher.save(CACHE)
+    fetcher.storeCache()
 
-    outfile = out if out != None else FINISHED
+    outfile = args.out if args.out != None else FINISHED
     makefiledir(outfile)
 
     with open(outfile, 'w', encoding='utf8') as json_file:

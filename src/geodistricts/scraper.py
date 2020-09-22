@@ -9,7 +9,6 @@ FINISHED = "data/geodistricts.json"
 
 def run(out):
     fetcher = Fetcher()
-    makefiledir(CACHE)
     fetcher.use(CACHE) #Use cached data.
 
     text, status_code = fetcher.fetch(URL)

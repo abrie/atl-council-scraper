@@ -87,7 +87,6 @@ def getCouncilMember(fetcher, href):
 
 def run(out):
     fetcher = Fetcher()
-    makefiledir(CACHE)
     fetcher.use(CACHE) #Use cached data.
     members = [getCouncilMember(fetcher, href) for href in getAllCouncilMembers(fetcher)]
 

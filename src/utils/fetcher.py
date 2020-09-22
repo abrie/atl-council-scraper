@@ -2,6 +2,7 @@ import requests
 import json
 import sys
 import pathlib
+from utils.makefiledir import makefiledir
 
 class Fetcher:
     def __init__(self):
@@ -27,6 +28,7 @@ class Fetcher:
                 self.use_cached = True
 
     def save(self, path):
+        makefiledir(path)
         with open(path, "w+") as f:
             f.write(json.dumps(self.pages))
 

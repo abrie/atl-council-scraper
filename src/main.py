@@ -24,15 +24,19 @@ def server(args):
     parser.add_argument('--port', dest="what", type=int, default=8000, help="server port")
     print("server not implemented")
 
-if len(sys.argv) < 2:
-    print("Need a command argument.")
-    sys.exit(2)
+def run():
+    if len(sys.argv) < 2:
+        print("atl-city-scraper")
+        print("\nScrape and serve city information from various Atlanta resources")
+        sys.exit(2)
 
-commands = {
-    "scrape": scraper,
-    "serve": server,
-}
+    commands = {
+        "scrape": scraper,
+        "serve": server,
+    }
 
-command = commands[sys.argv[1]]
-command(sys.argv[2:])
+    command = commands[sys.argv[1]]
+    command(sys.argv[2:])
 
+if __name__ == '__main__':
+    run()

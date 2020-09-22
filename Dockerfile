@@ -33,4 +33,4 @@ WORKDIR /app
 # Use unprivileged, non-root user.
 USER appuser:appuser
 
-CMD ["python", "scrape_citycouncil.py"]
+ENTRYPOINT ["python", "main.py"]

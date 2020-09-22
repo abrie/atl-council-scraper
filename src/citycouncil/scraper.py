@@ -1,8 +1,10 @@
 from bs4 import BeautifulSoup
-from fetcher import Fetcher
+from utils.fetcher import Fetcher
+from utils.makefiledir import makefiledir
 import json
 import sys
 import itertools
+import argparse
 
 URL = "https://citycouncil.atlantaga.gov"
 CACHE = "data/raw-citycouncil.json"
@@ -83,15 +85,16 @@ def getCouncilMember(fetcher, href):
             'image': image,
             'contact': contact}
 
-def run():
+def run(out):
     fetcher = Fetcher()
+    makefiledir(CACHE)
     fetcher.use(CACHE) #Use cached data.
     members = [getCouncilMember(fetcher, href) for href in getAllCouncilMembers(fetcher)]
 
     fetcher.save(CACHE)
 
-    with open(FINISHED, 'w', encoding='utf8') as json_file:
+    outfile = out if out != None else FINISHED
+    makefiledir(outfile)
+
+    with open(outfile, 'w', encoding='utf8') as json_file:
         json.dump(members, json_file, ensure_ascii=False)
-
-run()
-

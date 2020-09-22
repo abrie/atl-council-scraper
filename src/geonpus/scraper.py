@@ -1,7 +1,6 @@
-from Fetcher import fetcher
+from utils.fetcher import Fetcher
 
 def run():
-    fetcher = new Fetcher()
     fetcher = Fetcher()
     fetcher.use("data/raw-geodistricts.json") #Use cached data.
 

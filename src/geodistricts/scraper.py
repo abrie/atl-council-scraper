@@ -1,4 +1,5 @@
-from fetcher import Fetcher
+from utils.fetcher import Fetcher
+from utils.makefiledir import makefiledir
 import json
 
 # Source: https://dcp-coaplangis.opendata.arcgis.com/datasets/city-council-districts
@@ -6,8 +7,9 @@ URL = "https://opendata.arcgis.com/datasets/5ce01aea8d4046fe8659a8e25958c2bb_2.g
 CACHE = "data/raw-geodistricts.json"
 FINISHED = "data/geodistricts.json"
 
-def run():
+def run(out):
     fetcher = Fetcher()
+    makefiledir(CACHE)
     fetcher.use(CACHE) #Use cached data.
 
     text, status_code = fetcher.fetch(URL)
@@ -18,11 +20,12 @@ def run():
 
     geojson = json.loads(text)
     features = [feature for feature in geojson["features"] if feature["properties"]["GEOTYPE"] == "City Council District"]
-
     result = {"type":"FeatureCollection", "features":features}
+
+    outfile = out if out != None else FINISHED
+    makefiledir(outfile)
+
     with open(FINISHED,"w+") as f:
         f.write(json.dumps(result))
 
     fetcher.save(CACHE)
-
-run()

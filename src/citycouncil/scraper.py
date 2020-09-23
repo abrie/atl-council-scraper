@@ -14,7 +14,7 @@ def getAllCouncilMembers(fetcher, use_cache=False):
     text, status_code = fetcher.fetch(URL, use_cache=use_cache)
     if status_code != 200:
         print("Failed to contact", URL, r.status_code)
-        sys.exit(-1)
+        sys.exit(2)
 
     soup = BeautifulSoup(text, 'html.parser')
     tab = soup.find(id="ColumnUserControl2")
@@ -87,13 +87,15 @@ def getCouncilMember(fetcher, href, use_cache=False):
 
 def run(args):
     fetcher = Fetcher(cacheDest=CACHE)
+
     members = [getCouncilMember(fetcher, href, use_cache=args.use_cache)
                for href in getAllCouncilMembers(fetcher, use_cache=args.use_cache)]
 
     fetcher.storeCache()
 
-    outfile = args.out if args.out != None else FINISHED
-    makefiledir(outfile)
-
-    with open(outfile, 'w', encoding='utf8') as json_file:
-        json.dump(members, json_file, ensure_ascii=False)
+    if args.out == None:
+        print(json.dumps(members, indent=2))
+    else:
+        makefiledir(args.out)
+        with open(args.out, 'w', encoding='utf8') as json_file:
+            json.dump(members, json_file, ensure_ascii=False)

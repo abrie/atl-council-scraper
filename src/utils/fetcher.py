@@ -11,11 +11,11 @@ class Fetcher:
 
     def fetch(self, url, use_cache=False):
         if self.has_cache and use_cache:
-            print("Using cached url:", url)
+            print("Using cached url:", url, file=sys.stderr)
             cached = self.pages[url]
             return cached["text"], cached["status"]
         else:
-            print("Fetching url:", url)
+            print("Fetching url:", url, file=sys.stderr)
             r = requests.get(url)
             self.pages[url] = {"text":r.text, "status":r.status_code}
             return r.text, r.status_code
@@ -33,7 +33,7 @@ class Fetcher:
         else:
             self.has_cache = False
             self.pages = {}
-            print("Warning: cache requested, but none exists.")
+            print("Warning: cache requested, but none exists.", file=sys.stderr)
 
     def storeCache(self):
         if self.cacheDest != None:

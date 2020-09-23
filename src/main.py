@@ -2,42 +2,39 @@ import argparse
 import sys
 
 import citycouncil.scraper
-import geodistricts.scraper
-import geonpus.scraper
 
 def scraper(args):
-    datasources = {
-        "citycouncil": citycouncil.scraper,
-        "geodistricts": geodistricts.scraper,
-        "geonpus": geonpus.scraper
-    }
-
-    parser = argparse.ArgumentParser(description="Scrapes data from various Atlanta data sources.")
-    parser.add_argument('--what', dest="what", required=True, choices=list(datasources.keys()), help="what to scrape")
+    parser = argparse.ArgumentParser(description="Scrape the city council website for council member information.")
     parser.add_argument('--out', dest="out", default=None, help="output file for scraped result")
     parser.add_argument('--cached', dest="use_cache", default=False,const=True,action="store_const")
     parsedArgs = parser.parse_args(args)
 
-    datasources[parsedArgs.what].run(parsedArgs)
+    citycouncil.scraper.run(parsedArgs)
 
-def server(args):
-    parser = argparse.ArgumentParser(description="Serves scraped data from various Atlanta data sources.")
-    parser.add_argument('--port', dest="what", type=int, default=8000, help="server port")
-    print("server not implemented")
+def help():
+    print("atl-council-scraper scrapes the Atlanta City Council website.\n")
+    print("Usage: atl-council-scraper scrape [arguments]\n")
+    print("Arguments:\n")
+    print("\t-h\t\tShow help")
+    print("\t--out\t\tSpecify a file for scraped output")
+    print("\t--cached\tScrape data from cached HTML, if available.")
 
 def run():
     if len(sys.argv) < 2:
-        print("atl-city-scraper")
-        print("\nScrape and serve city information from various Atlanta resources")
+        help()
         sys.exit(2)
 
     commands = {
         "scrape": scraper,
-        "serve": server,
     }
 
-    command = commands[sys.argv[1]]
-    command(sys.argv[2:])
+    command = sys.argv[1]
+
+    if command in commands:
+        commands[command](sys.argv[2:])
+    else:
+        print("Uknown command '%s'\n" % command)
+        sys.exit(2)
 
 if __name__ == '__main__':
     run()

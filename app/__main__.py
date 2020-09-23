@@ -3,38 +3,25 @@ import sys
 
 import app.citycouncil.scraper
 
-def scraper(args):
+if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Scrape the city council website for council member information.")
-    parser.add_argument('--out', dest="out", default=None, help="output file for scraped result")
-    parser.add_argument('--cached', dest="use_cache", default=False,const=True,action="store_const")
-    parsedArgs = parser.parse_args(args)
+    subparser = parser.add_subparsers(dest="command", required=True)
+    parser_scrape = subparser.add_parser('scrape', description="Scrape the city council website for council member information.")
+    parser_scrape.add_argument('--out', dest="out", default=None, type=argparse.FileType('w', encoding='UTF-8'), help="save output here.")
+    group = parser_scrape.add_mutually_exclusive_group()
+    group.add_argument('--use-cache', dest='use_cache', type=argparse.FileType('r'), help='read HTML from this file.')
+    group.add_argument('--store-cache', dest='store_cache', type=argparse.FileType('w', encoding='UTF-8'), help='store HTML into this file')
 
-    citycouncil.scraper.run(parsedArgs)
+    if len(sys.argv)==1:
+        parser.print_help(sys.stderr)
+        sys.exit(1)
 
-def help():
-    print("atl-council-scraper scrapes the Atlanta City Council website.\n")
-    print("Usage: atl-council-scraper scrape [arguments]\n")
-    print("Arguments:\n")
-    print("\t-h\t\tShow help")
-    print("\t--out\t\tSpecify a file for scraped output")
-    print("\t--cached\tScrape data from cached HTML, if available.")
-
-def run():
-    if len(sys.argv) < 2:
-        help()
-        sys.exit(2)
+    args = parser.parse_args()
+    print(args)
 
     commands = {
-        "scrape": scraper,
+        "scrape": app.citycouncil.scraper.run,
     }
 
-    command = sys.argv[1]
+    commands[args.command](args)
 
-    if command in commands:
-        commands[command](sys.argv[2:])
-    else:
-        print("Uknown command '%s'\n" % command)
-        sys.exit(2)
-
-if __name__ == '__main__':
-    run()

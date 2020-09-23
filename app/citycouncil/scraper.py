@@ -10,8 +10,8 @@ URL = "https://citycouncil.atlantaga.gov"
 CACHE = "data/raw-citycouncil.json"
 FINISHED = "data/citycouncil.json"
 
-def getAllCouncilMembers(fetcher, use_cache=False):
-    text, status_code = fetcher.fetch(URL, use_cache=use_cache)
+def getAllCouncilMembers(fetcher):
+    text, status_code = fetcher.fetch(URL)
     if status_code != 200:
         print("Failed to contact", URL, r.status_code)
         sys.exit(2)
@@ -65,8 +65,8 @@ def extractEmails(p):
         emails = list(dict.fromkeys(emails))
         return emails
 
-def getCouncilMember(fetcher, href, use_cache=False):
-    text, status_code = fetcher.fetch(href, use_cache=use_cache)
+def getCouncilMember(fetcher, href):
+    text, status_code = fetcher.fetch(href)
     if status_code != 200:
         return {'href': href, 'error': r.status_code}
 
@@ -86,17 +86,14 @@ def getCouncilMember(fetcher, href, use_cache=False):
             'contact': contact}
 
 def run(args):
-    print(args)
-    fetcher = Fetcher(cacheDest=CACHE)
+    fetcher = Fetcher(use_cache=args.use_cache, store_cache=args.store_cache)
 
-    members = [getCouncilMember(fetcher, href, use_cache=args.use_cache)
-               for href in getAllCouncilMembers(fetcher, use_cache=args.use_cache)]
-
-    fetcher.storeCache()
+    members = [getCouncilMember(fetcher, href)
+               for href in getAllCouncilMembers(fetcher)]
 
     if args.out == None:
         print(json.dumps(members, indent=2))
     else:
-        makefiledir(args.out)
-        with open(args.out, 'w', encoding='utf8') as json_file:
-            json.dump(members, json_file, ensure_ascii=False)
+        json.dump(members, args.out, ensure_ascii=False)
+
+    fetcher.storeCache()

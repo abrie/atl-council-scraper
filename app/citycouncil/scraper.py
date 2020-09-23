@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
-from utils.fetcher import Fetcher
-from utils.makefiledir import makefiledir
+from app.utils.fetcher import Fetcher
+from app.utils.makefiledir import makefiledir
 import json
 import sys
 import itertools
@@ -86,6 +86,7 @@ def getCouncilMember(fetcher, href, use_cache=False):
             'contact': contact}
 
 def run(args):
+    print(args)
     fetcher = Fetcher(cacheDest=CACHE)
 
     members = [getCouncilMember(fetcher, href, use_cache=args.use_cache)

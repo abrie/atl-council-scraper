@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-import citycouncil.scraper
+import app.citycouncil.scraper
 
 def scraper(args):
     parser = argparse.ArgumentParser(description="Scrape the city council website for council member information.")

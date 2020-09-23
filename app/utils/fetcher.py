@@ -3,7 +3,7 @@ import json
 import sys
 import os
 
-from utils.makefiledir import makefiledir
+from app.utils.makefiledir import makefiledir
 
 class Fetcher:
     def __init__(self, cacheDest=None):

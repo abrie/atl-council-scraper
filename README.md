@@ -10,13 +10,10 @@ For an example of scraped data, [see here](tests/testdata/scraped.json).
 
 `docker run abriedev/atl-council-scraper scrape`
 
-## Install / Test
+## Run From Source
 
 __Requires Python 3.8__
 
 1. `make dependencies`
 2. `make test`
-
-## Run
-
-`python3 -m app scrape`
+3. `python3 -m app scrape`

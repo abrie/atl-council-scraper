@@ -26,11 +26,10 @@ FROM base
 COPY --from=builder /install /usr/local
 COPY --from=builder /etc/passwd /etc/passwd
 COPY --from=builder /etc/group /etc/group
-COPY src /app
-
-WORKDIR /app
+COPY app /app
 
 # Use unprivileged, non-root user.
 USER appuser:appuser
 
-ENTRYPOINT ["python", "main.py"]
+WORKDIR /
+ENTRYPOINT ["python", "-m", "app"]

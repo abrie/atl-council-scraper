@@ -1,4 +1,3 @@
-import argparse
 import sys
 
 import app.citycouncil.scraper
@@ -12,4 +11,3 @@ if __name__ == '__main__':
     }
 
     commands[args.command](args)
-

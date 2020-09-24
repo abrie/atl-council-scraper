@@ -1,19 +1,16 @@
 from bs4 import BeautifulSoup
 from app.utils.fetcher import Fetcher
-from app.utils.makefiledir import makefiledir
 import json
 import sys
 import itertools
-import argparse
 
 URL = "https://citycouncil.atlantaga.gov"
-CACHE = "data/raw-citycouncil.json"
-FINISHED = "data/citycouncil.json"
+
 
 def getAllCouncilMembers(fetcher):
     text, status_code = fetcher.fetch(URL)
     if status_code != 200:
-        print("Failed to contact", URL, r.status_code)
+        print("Failed to contact", URL, status_code)
         sys.exit(2)
 
     soup = BeautifulSoup(text, 'html.parser')
@@ -26,49 +23,54 @@ def getAllCouncilMembers(fetcher):
 
 
 def buildContact(strings):
-    sections = {"Office Location":[],
-                "P":[],
-                "F":[],
-                "E":[],
-                "Committee Assignments":[]}
+    sections = {"Office Location": [],
+                "P": [],
+                "F": [],
+                "E": [],
+                "Committee Assignments": []}
 
     section = None
 
     for string in strings:
         if string in sections:
             section = sections[string]
-        elif section != None:
+        elif section is not None:
             section.append(string)
 
-    remapping = {"Office Location":"office",
-                 "P":"phone",
-                 "F":"fax",
-                 "E":"email",
-                 "Committee Assignments":"committees"}
+    remapping = {
+        "Office Location": "office",
+        "P": "phone",
+        "F": "fax",
+        "E": "email",
+        "Committee Assignments": "committees"
+    }
 
     remapped = {remapping.get(k, k): v for k, v in sections.items() if k in remapping}
 
     return remapped
 
+
 def extractStrings(p):
-        strings = [string for string in p.strings]
-        strings = [string.split(":") for string in strings]
-        strings = list(itertools.chain(*strings))
-        strings = [string.strip() for string in strings]
-        strings = list(filter(lambda string: string != '', strings))
-        return strings
+    strings = [string for string in p.strings]
+    strings = [string.split(":") for string in strings]
+    strings = list(itertools.chain(*strings))
+    strings = [string.strip() for string in strings]
+    strings = list(filter(lambda string: string != '', strings))
+    return strings
+
 
 def extractEmails(p):
-        mailtos = [a["href"] for a in p.select('a[href^="mailto:"]')]
-        emails = [a.replace("mailto:","") for a in mailtos]
-        emails = [email.strip() for email in emails]
-        emails = list(dict.fromkeys(emails))
-        return emails
+    mailtos = [a["href"] for a in p.select('a[href^="mailto:"]')]
+    emails = [a.replace("mailto:", "") for a in mailtos]
+    emails = [email.strip() for email in emails]
+    emails = list(dict.fromkeys(emails))
+    return emails
+
 
 def getCouncilMember(fetcher, href):
     text, status_code = fetcher.fetch(href)
     if status_code != 200:
-        return {'href': href, 'error': r.status_code}
+        return {'href': href, 'error': status_code}
 
     soup = BeautifulSoup(text, 'html.parser')
     name = soup.find("h1", ["titlewidget-title"]).find("span").contents[0]
@@ -79,21 +81,25 @@ def getCouncilMember(fetcher, href):
     contact = buildContact(extractStrings(content))
     contact["email"] = extractEmails(content)
 
-    return {'href': href,
-            'name': name,
-            'district': district,
-            'image': image,
-            'contact': contact}
+    return {
+        'href': href,
+        'name': name,
+        'district': district,
+        'image': image,
+        'contact': contact
+    }
+
 
 def scrape(fetcher):
     return [getCouncilMember(fetcher, href) for href in getAllCouncilMembers(fetcher)]
+
 
 def run(args):
     fetcher = Fetcher(use_cache=args.use_cache, store_cache=args.store_cache)
     scraped = scrape(fetcher)
     fetcher.storeCache()
 
-    if args.out == None:
+    if args.out is None:
         print(json.dumps(scraped, indent=2))
     else:
         json.dump(scraped, args.out, ensure_ascii=False)

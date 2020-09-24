@@ -1,9 +1,7 @@
 import requests
 import json
 import sys
-import os
 
-from app.utils.makefiledir import makefiledir
 
 class Fetcher:
     def __init__(self, use_cache=None, store_cache=None):
@@ -26,7 +24,10 @@ class Fetcher:
             print("Fetching url:", url, file=sys.stderr)
             r = requests.get(url)
             if self.store_cache:
-                self.pages[url] = {"text":r.text, "status":r.status_code}
+                self.pages[url] = {
+                    "text": r.text,
+                    "status": r.status_code
+                }
             return r.text, r.status_code
 
     def storeCache(self):

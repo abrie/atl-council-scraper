@@ -2,7 +2,7 @@
 
 [Atlanta's City Council website](https://citycouncil.atlantaga.gov/) contains information about current city council members.
 
-This repository provides an app to scrape that information into a machine readable JSON file.
+This app pulls that information into a machine readable JSON file.
 
 For an example of scraped data, [see here](tests/testdata/scraped.json).
 

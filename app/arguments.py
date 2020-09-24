@@ -10,8 +10,4 @@ def parse(args):
     group.add_argument('--use-cache', dest='use_cache', type=argparse.FileType('r'), help='read HTML from this file.')
     group.add_argument('--store-cache', dest='store_cache', type=argparse.FileType('w', encoding='UTF-8'), help='store HTML into this file')
 
-    if len(sys.argv)==1:
-        parser.print_help(sys.stderr)
-        sys.exit(1)
-
-    return parser.parse_args()
+    return parser.parse_args(args)

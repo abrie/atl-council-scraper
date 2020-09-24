@@ -85,15 +85,15 @@ def getCouncilMember(fetcher, href):
             'image': image,
             'contact': contact}
 
+def scrape(fetcher):
+    return [getCouncilMember(fetcher, href) for href in getAllCouncilMembers(fetcher)]
+
 def run(args):
     fetcher = Fetcher(use_cache=args.use_cache, store_cache=args.store_cache)
-
-    members = [getCouncilMember(fetcher, href)
-               for href in getAllCouncilMembers(fetcher)]
+    scraped = scrape(fetcher)
+    fetcher.storeCache()
 
     if args.out == None:
-        print(json.dumps(members, indent=2))
+        print(json.dumps(scraped, indent=2))
     else:
-        json.dump(members, args.out, ensure_ascii=False)
-
-    fetcher.storeCache()
+        json.dump(scraped, args.out, ensure_ascii=False)

@@ -22,4 +22,12 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Scrape the site
       run: |
-        python3 -m app scrape
+        python3 -m app scrape > scraped/atl-citycouncil.json
+    - name: Commit changes
+      run: |
+        git config user.name "Automated scrape commit."
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Updated scraped data: ${timestamp}" || exit 0
+        git push

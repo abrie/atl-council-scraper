@@ -1,18 +1,20 @@
 # ATL City Council Scraper
 
-[Atlanta's City Council website](https://citycouncil.atlantaga.gov/) is the authoritative source of city council information.
+https://citycouncil.atlantaga.gov/ is the authoritative source for Atlanta City Council information.
 
-This app scrapes the information into JSON format.
+This repository scrapes council member info into JSON for consumption by apps and APIs.
 
-Scraping is done daily via Github Actions; which updates this repo with [the most recent data](scraped/atl-citycouncil.json).
+Scraping is done daily via Github Actions. Neat technique.<sup>[1](https://simonwillison.net/2020/Oct/9/git-scraping/)</sup>
 
-If you prefer to run the scraper yourself, then you have two options:
+Get the most recent [scraped data here](scraped/atl-citycouncil.json).
 
-## Run CLI Container
+For self-hosting you have two options:
+
+## Run in a container
 
 `docker run abriedev/atl-council-scraper scrape`
 
-## Run From Source
+## Build from source
 
 __Requires Python 3.8__
 

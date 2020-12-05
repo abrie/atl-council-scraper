@@ -14,6 +14,10 @@ For self-hosting you have two options:
 
 `docker run abriedev/atl-council-scraper scrape`
 
+Save output to a .json file in your root folder
+
+`docker run abriedev/atl-council-scraper scrape > name-of-output-file.json`
+
 ## Build from source
 
 __Requires Python 3.8__

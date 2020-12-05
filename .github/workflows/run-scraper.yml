@@ -2,7 +2,7 @@ name: ATL City Council Scraper Workflow
 
 on:
   schedule:
-    - cron:  '0 8 * * *' # 8am daily. Ref https://crontab.guru/examples.html
+    - cron:  '0 11 * * *' # 11am daily. Ref https://crontab.guru/examples.html
   workflow_dispatch:
 
 jobs:

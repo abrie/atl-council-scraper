@@ -11,9 +11,15 @@
         "Second Floor East",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6052"],
-      "fax": ["(404) 739-9240"],
-      "email": ["fmoore@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6052"
+      ],
+      "fax": [
+        "(404) 739-9240"
+      ],
+      "email": [
+        "fmoore@atlantaga.gov"
+      ],
       "committees": []
     }
   },
@@ -29,9 +35,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6039"],
-      "fax": ["(404) 739-4855"],
-      "email": ["csmith@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6039"
+      ],
+      "fax": [
+        "(404) 739-4855"
+      ],
+      "email": [
+        "csmith@atlantaga.gov"
+      ],
       "committees": [
         "Public Safety",
         "Zoning (C)",
@@ -51,14 +63,24 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6038"],
-      "fax": ["(404) 979-3676"],
-      "email": ["arfarokhi@atlantaga.gov"],
-      "committees": ["Transportation", "Committee on Council", "Zoning"]
+      "phone": [
+        "(404) 330-6038"
+      ],
+      "fax": [
+        "(404) 979-3676"
+      ],
+      "email": [
+        "arfarokhi@atlantaga.gov"
+      ],
+      "committees": [
+        "Transportation",
+        "Committee on Council",
+        "Zoning"
+      ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/council-district-3",
+    "href": "https://citycouncil.atlantaga.gov/council-members/antonio-brown",
     "name": "Antonio Brown",
     "district": "District 3",
     "image": "/Home/ShowPublishedImage/2935/637068264051400000",
@@ -69,8 +91,12 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6046"],
-      "fax": ["(404) 739-9242"],
+      "phone": [
+        "(404) 330-6046"
+      ],
+      "fax": [
+        "(404) 739-9242"
+      ],
       "email": [
         "antoniobrown@atlantaga.gov",
         "ATLCouncildistrict3@atlantaga.gov"
@@ -94,10 +120,20 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6047"],
-      "fax": ["(404) 739-9238"],
-      "email": ["cwinslow@atlantaga.gov"],
-      "committees": ["City Utilities", "Zoning", "Committee on Council"]
+      "phone": [
+        "(404) 330-6047"
+      ],
+      "fax": [
+        "(404) 739-9238"
+      ],
+      "email": [
+        "cwinslow@atlantaga.gov"
+      ],
+      "committees": [
+        "City Utilities",
+        "Zoning",
+        "Committee on Council"
+      ]
     }
   },
   {
@@ -112,9 +148,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6048"],
-      "fax": ["(404) 739-4851"],
-      "email": ["narchibong@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6048"
+      ],
+      "fax": [
+        "(404) 739-4851"
+      ],
+      "email": [
+        "narchibong@atlantaga.gov"
+      ],
       "committees": [
         "Community Development/Human Services - Chair",
         "Finance/Executive",
@@ -134,9 +176,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6049"],
-      "fax": ["(404) 979-3677"],
-      "email": ["jnide@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6049"
+      ],
+      "fax": [
+        "(404) 979-3677"
+      ],
+      "email": [
+        "jnide@atlantaga.gov"
+      ],
       "committees": [
         "Committee on Council - Chair",
         "Zoning",
@@ -157,9 +205,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6050"],
-      "fax": ["(404) 739-9244"],
-      "email": ["hshook@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6050"
+      ],
+      "fax": [
+        "(404) 739-9244"
+      ],
+      "email": [
+        "hshook@atlantaga.gov"
+      ],
       "committees": [
         "Finance/Executive - VC",
         "City Utilities",
@@ -179,9 +233,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6051"],
-      "fax": ["(404) 979-3678"],
-      "email": ["jpmatzigkeit@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6051"
+      ],
+      "fax": [
+        "(404) 979-3678"
+      ],
+      "email": [
+        "jpmatzigkeit@atlantaga.gov"
+      ],
       "committees": [
         "Committee on Council - C",
         "City Utilities",
@@ -202,9 +262,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6044"],
-      "fax": ["(404) 979-3679"],
-      "email": ["drhillis@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6044"
+      ],
+      "fax": [
+        "(404) 979-3679"
+      ],
+      "email": [
+        "drhillis@atlantaga.gov"
+      ],
       "committees": [
         "Public Safety and Legal Administration - Chair",
         "Community Development/Human Services",
@@ -224,9 +290,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6055"],
-      "fax": ["(404) 979-3680"],
-      "email": ["aboone@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6055"
+      ],
+      "fax": [
+        "(404) 979-3680"
+      ],
+      "email": [
+        "aboone@atlantaga.gov"
+      ],
       "committees": [
         "Zoning",
         "Finance/Executive",
@@ -246,9 +318,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6054"],
-      "fax": ["(404) 979-3681"],
-      "email": ["mcoverstreet@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6054"
+      ],
+      "fax": [
+        "(404) 979-3681"
+      ],
+      "email": [
+        "mcoverstreet@atlantaga.gov"
+      ],
       "committees": [
         "Transportation",
         "Community Development/Human Services",
@@ -269,9 +347,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6053"],
-      "fax": ["(404) 739-9255"],
-      "email": ["jmsheperd@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6053"
+      ],
+      "fax": [
+        "(404) 739-9255"
+      ],
+      "email": [
+        "jmsheperd@atlantaga.gov"
+      ],
       "committees": [
         "City Utilities",
         "Community Development/Human Services",
@@ -291,9 +375,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6770"],
-      "fax": ["(404) 739-4852"],
-      "email": ["mbond@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6770"
+      ],
+      "fax": [
+        "(404) 739-4852"
+      ],
+      "email": [
+        "mbond@atlantaga.gov"
+      ],
       "committees": [
         "City Utilities",
         "Zoning",
@@ -313,9 +403,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6302"],
-      "fax": ["(404) 979-3682"],
-      "email": ["mwestmoreland@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6302"
+      ],
+      "fax": [
+        "(404) 979-3682"
+      ],
+      "email": [
+        "mwestmoreland@atlantaga.gov"
+      ],
       "committees": [
         "Committee on Council",
         "Finance Executive",
@@ -336,9 +432,15 @@
         "Suite 2900",
         "Atlanta, GA 30303-3584"
       ],
-      "phone": ["(404) 330-6041"],
-      "fax": ["(404) 739-9250"],
-      "email": ["adickens@atlantaga.gov"],
+      "phone": [
+        "(404) 330-6041"
+      ],
+      "fax": [
+        "(404) 739-9250"
+      ],
+      "email": [
+        "adickens@atlantaga.gov"
+      ],
       "committees": [
         "Transportation - Chair",
         "Public Safety and Legal Administration",
@@ -348,4 +450,3 @@
     }
   }
 ]
-

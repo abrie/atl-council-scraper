@@ -4,7 +4,7 @@ import json
 import sys
 import itertools
 
-URL = "https://citycouncil.atlantaga.gov"
+URL = "https://citycouncil.atlantaga.gov/council-members"
 
 
 def getAllCouncilMembers(fetcher):

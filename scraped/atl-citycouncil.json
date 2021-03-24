@@ -339,7 +339,7 @@
     "href": "https://citycouncil.atlantaga.gov/council-members/joyce-sheperd",
     "name": "Joyce Sheperd",
     "district": "District 12",
-    "image": "/Home/ShowPublishedImage/5098",
+    "image": "/Home/ShowPublishedImage/5098/637520364760457653",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -357,9 +357,10 @@
         "jmsheperd@atlantaga.gov"
       ],
       "committees": [
+        "Public Safety - Chair",
         "City Utilities",
-        "Community Development/Human Services",
-        "Transportation"
+        "Finance Executive",
+        "Community Development"
       ]
     }
   },

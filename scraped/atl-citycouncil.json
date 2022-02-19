@@ -1,9 +1,9 @@
 [
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/council-president-felicia-a-moore",
-    "name": "Council President Felicia A. Moore",
+    "href": "https://citycouncil.atlantaga.gov/council-members/council-president-doug-shipman",
+    "name": "Council President Doug Shipman",
     "district": "City Council President",
-    "image": "/home/showpublishedimage/1566/636495627228870000",
+    "image": "/home/showpublishedimage/6367/637758569389000000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -18,16 +18,17 @@
         "(404) 739-9240"
       ],
       "email": [
+        "dshipman@atlantaga.gov",
         "fmoore@atlantaga.gov"
       ],
       "committees": []
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/carla-smith",
-    "name": "Carla Smith",
+    "href": "https://citycouncil.atlantaga.gov/council-members/jason-winston",
+    "name": "Jason Winston",
     "district": "District 1",
-    "image": "/home/showpublishedimage/1574/636495627244800000",
+    "image": "/home/showpublishedimage/6421/637761329613170000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -42,11 +43,11 @@
         "(404) 739-4855"
       ],
       "email": [
-        "csmith@atlantaga.gov"
+        "jwinston@atlantaga.gov"
       ],
       "committees": [
-        "Public Safety",
-        "Zoning",
+        "Finance Executive",
+        "City Utilities",
         "Community Development Human Services"
       ]
     }
@@ -73,17 +74,17 @@
         "arfarokhi@atlantaga.gov"
       ],
       "committees": [
-        "Zoning - Chair",
-        "Transportation",
+        "Transportation - C",
+        "Zoning",
         "Committee on Council"
       ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/antonio-brown",
-    "name": "Antonio Brown",
+    "href": "https://citycouncil.atlantaga.gov/council-members/byron-amos",
+    "name": "Byron Amos",
     "district": "District 3",
-    "image": "/home/showpublishedimage/2935/637068264051400000",
+    "image": "/home/showpublishedimage/6415/637761329589730000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -98,21 +99,21 @@
         "(404) 739-9242"
       ],
       "email": [
-        "antoniobrown@atlantaga.gov",
+        "bdamos@atlantaga.gov",
         "ATLCouncildistrict3@atlantaga.gov"
       ],
       "committees": [
         "Community Development / Human Services",
         "Public Safety",
-        "Committee on Council"
+        "Zoning"
       ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/cleta-winslow",
-    "name": "Cleta Winslow",
+    "href": "https://citycouncil.atlantaga.gov/council-members/jason-s-dozier",
+    "name": "Jason S. Dozier",
     "district": "District 4",
-    "image": "/home/showpublishedimage/1576/637252303713970000",
+    "image": "/home/showpublishedimage/6419/637761329604400000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -127,20 +128,20 @@
         "(404) 739-9238"
       ],
       "email": [
-        "cwinslow@atlantaga.gov"
+        "jdozier@atlantaga.gov"
       ],
       "committees": [
-        "City Utilities",
-        "Zoning",
-        "Committee on Council"
+        "Finance",
+        "Transportation",
+        "Community Development Human Services"
       ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/natalyn-archibong",
-    "name": "Natalyn Archibong",
+    "href": "https://citycouncil.atlantaga.gov/council-members/liliana-bakhtiari",
+    "name": "Liliana Bakhtiari",
     "district": "District 5",
-    "image": "/home/showpublishedimage/1552/636495627201770000",
+    "image": "/home/showpublishedimage/6425/637761329628930000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -155,20 +156,20 @@
         "(404) 739-4851"
       ],
       "email": [
-        "narchibong@atlantaga.gov"
+        "Lbakhtiari@atlantaga.gov"
       ],
       "committees": [
         "Community Development/Human Services",
         "Finance/Executive",
-        "City Utilities - Chair"
+        "City Utilities"
       ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/jennifer-n-ide",
-    "name": "Jennifer N. Ide",
+    "href": "https://citycouncil.atlantaga.gov/council-members/alex-wan",
+    "name": "Alex Wan",
     "district": "District 6",
-    "image": "/home/showpublishedimage/1562/636495627221200000",
+    "image": "/home/showpublishedimage/6411/637761329573630000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -183,12 +184,11 @@
         "(404) 979-3677"
       ],
       "email": [
-        "jnide@atlantaga.gov"
+        "awan@atlantaga.gov"
       ],
       "committees": [
-        "Committee on Council - Chair",
-        "Zoning",
-        "Finance/Executive",
+        "Finance/Executive - C",
+        "City Utilities",
         "Transportation"
       ]
     }
@@ -215,17 +215,18 @@
         "hshook@atlantaga.gov"
       ],
       "committees": [
-        "Finance/Executive - VC",
-        "City Utilities",
-        "Public Safety"
+        "City Utilities - C",
+        "Finance/Executive",
+        "Zoning",
+        "Committee on Council"
       ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/j-p-matzigkeit",
-    "name": "J. P. Matzigkeit",
+    "href": "https://citycouncil.atlantaga.gov/council-members/mary-norwood",
+    "name": "Mary Norwood",
     "district": "District 8",
-    "image": "/home/showpublishedimage/3287/637309587517530000",
+    "image": "/home/showpublishedimage/6427/637761329635970000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -240,13 +241,12 @@
         "(404) 979-3678"
       ],
       "email": [
-        "jpmatzigkeit@atlantaga.gov"
+        "mnorwood@atlantaga.gov"
       ],
       "committees": [
-        "Committee on Council - C",
-        "City Utilities",
-        "Transportation",
-        "Finance/Executive"
+        "Zoning",
+        "Public Safety",
+        "Committee on Council"
       ]
     }
   },
@@ -274,7 +274,8 @@
       "committees": [
         "Public Safety and Legal Administration - Chair",
         "Community Development/Human Services",
-        "City Utilities"
+        "City Utilities",
+        "Committee on Council"
       ]
     }
   },
@@ -282,7 +283,7 @@
     "href": "https://citycouncil.atlantaga.gov/council-members/andrea-l-boone",
     "name": "Andrea L. Boone",
     "district": "District 10",
-    "image": "/home/showpublishedimage/1785/636538730447700000",
+    "image": "/home/showpublishedimage/1785/637770677498870000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -300,8 +301,9 @@
         "aboone@atlantaga.gov"
       ],
       "committees": [
+        "Committee on Council - C",
         "Zoning",
-        "Finance/Executive",
+        "City Utilities",
         "Public Safety and Legal Administration"
       ]
     }
@@ -328,18 +330,17 @@
         "mcoverstreet@atlantaga.gov"
       ],
       "committees": [
+        "Zoning - C",
         "Transportation",
-        "Community Development/Human Services",
-        "Public Safety and Legal Administration",
-        "Zoning"
+        "Public Safety and Legal Administration"
       ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/joyce-sheperd",
-    "name": "Joyce Sheperd",
+    "href": "https://citycouncil.atlantaga.gov/council-members/antonio-lewis",
+    "name": "Antonio Lewis",
     "district": "District 12",
-    "image": "/home/showpublishedimage/5098/637520364760470000",
+    "image": "/home/showpublishedimage/6413/637761329580800000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -354,13 +355,12 @@
         "(404) 739-9255"
       ],
       "email": [
-        "jmsheperd@atlantaga.gov"
+        "anlewis@atlantaga.gov"
       ],
       "committees": [
-        "Public Safety - Chair",
         "City Utilities",
-        "Finance Executive",
-        "Community Development"
+        "Committee on Council",
+        "Transportation"
       ]
     }
   },
@@ -368,7 +368,7 @@
     "href": "https://citycouncil.atlantaga.gov/council-members/michael-julian-bond",
     "name": "Michael Julian Bond ",
     "district": "Post 1 at Large",
-    "image": "/home/showpublishedimage/1620/637586988357070000",
+    "image": "/home/showpublishedimage/6483/637770954327800000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -386,8 +386,8 @@
         "mbond@atlantaga.gov"
       ],
       "committees": [
-        "City Utilities",
-        "Zoning",
+        "Finance",
+        "Public Safety",
         "Community Development/Human Services"
       ]
     }
@@ -396,7 +396,7 @@
     "href": "https://citycouncil.atlantaga.gov/council-members/matt-westmoreland",
     "name": "Matt Westmoreland",
     "district": "Post 2 at Large",
-    "image": "/home/showpublishedimage/1580/636535149416330000",
+    "image": "/home/showpublishedimage/6429/637761329660030000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -415,17 +415,17 @@
       ],
       "committees": [
         "Committee on Council",
-        "Finance Executive",
+        "Zoning",
         "Community Development/Human Services",
         "Transportation"
       ]
     }
   },
   {
-    "href": "https://citycouncil.atlantaga.gov/council-members/andre-dickens",
-    "name": "Andre Dickens",
+    "href": "https://citycouncil.atlantaga.gov/council-members/keisha-sean-waites",
+    "name": "Keisha Sean Waites",
     "district": "Post 3 at Large",
-    "image": "/home/showpublishedimage/1556/636534409437770000",
+    "image": "/home/showpublishedimage/6423/637761329620970000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -440,13 +440,12 @@
         "(404) 739-9250"
       ],
       "email": [
-        "adickens@atlantaga.gov"
+        "kwaites@atlantaga.gov"
       ],
       "committees": [
-        "Transportation - Chair",
+        "Transportation",
         "Public Safety and Legal Administration",
-        "Finance/Executive",
-        "Committee on Council"
+        "Finance/Executive"
       ]
     }
   }

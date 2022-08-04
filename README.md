@@ -30,10 +30,10 @@ Create a virtual environment (OSX / Linux / Windows):
 `python3 -m venv venv`
 
 OSX / Linux:
-`source .venv/bin/activate`
+`source venv/bin/activate`
 
 Windows:
-`\.venv\Scripts\activate.bat`
+`\venv\Scripts\activate.bat`
 
 Running `make dependencies` will install BeautifulSoup4
 

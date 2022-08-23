@@ -54,7 +54,31 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/amir-r-farokhi",
-    "error": 503
+    "name": "Amir R. Farokhi",
+    "district": "District 2",
+    "image": "/home/showpublishedimage/1590/636770106214530000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6038"
+      ],
+      "fax": [
+        "(404) 979-3676"
+      ],
+      "email": [
+        "arfarokhi@atlantaga.gov"
+      ],
+      "committees": [
+        "Transportation - C",
+        "Zoning",
+        "Committee on Council"
+      ]
+    }
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/byron-amos",
@@ -342,7 +366,31 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/michael-julian-bond",
-    "error": 503
+    "name": "Michael Julian Bond ",
+    "district": "Post 1 at Large",
+    "image": "/home/showpublishedimage/6483/637770954327800000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6770"
+      ],
+      "fax": [
+        "(404) 739-4852"
+      ],
+      "email": [
+        "mbond@atlantaga.gov"
+      ],
+      "committees": [
+        "Finance",
+        "Public Safety",
+        "Community Development/Human Services"
+      ]
+    }
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/matt-westmoreland",
@@ -375,6 +423,30 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/keisha-sean-waites",
-    "error": 503
+    "name": "Keisha Sean Waites",
+    "district": "Post 3 at Large",
+    "image": "/home/showpublishedimage/6423/637761329620970000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6041"
+      ],
+      "fax": [
+        "(404) 739-9250"
+      ],
+      "email": [
+        "kwaites@atlantaga.gov"
+      ],
+      "committees": [
+        "Transportation",
+        "Public Safety and Legal Administration",
+        "Finance/Executive"
+      ]
+    }
   }
 ]

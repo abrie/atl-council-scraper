@@ -6,7 +6,7 @@ This repository scrapes council member info into JSON for consumption by apps an
 
 Scraping is done at 11am daily via Github Actions using the script in [.github/workflows/run-scraper.yml](.github/workflows/run-scraper.yml). Neat technique.<sup>[1](https://simonwillison.net/2020/Oct/9/git-scraping/)</sup>
 
-Get the most recent [scraped data here](scraped/atl-citycouncil.json).
+Get the most recent [scraped data here](scraped/atl-citycouncil.json). View [update history](https://github.com/abrie/atl-council-scraper/commits/master/scraped/atl-citycouncil.json).
 
 For self-hosting you have two options:
 

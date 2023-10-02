@@ -46,9 +46,10 @@
         "jwinston@atlantaga.gov"
       ],
       "committees": [
+        "City Utilities - Chair",
         "Finance Executive",
-        "City Utilities",
-        "Community Development Human Services"
+        "Community Development Human Services",
+        "Committee on Council"
       ]
     }
   },
@@ -74,7 +75,7 @@
         "arfarokhi@atlantaga.gov"
       ],
       "committees": [
-        "Transportation - C",
+        "Transportation - Chair",
         "Zoning",
         "Committee on Council"
       ]
@@ -104,8 +105,9 @@
       ],
       "committees": [
         "Community Development / Human Services",
-        "Public Safety",
-        "Zoning"
+        "Committee on Council - VC",
+        "Public Safety - VC",
+        "Transportation"
       ]
     }
   },
@@ -131,9 +133,9 @@
         "jdozier@atlantaga.gov"
       ],
       "committees": [
-        "Finance",
-        "Transportation",
-        "Community Development Human Services"
+        "City Utilities",
+        "Zoning",
+        "Community Development Human Services - Chair"
       ]
     }
   },
@@ -161,7 +163,8 @@
       "committees": [
         "Community Development/Human Services",
         "Finance/Executive",
-        "City Utilities"
+        "Zoning",
+        "Committee on Council - Chair"
       ]
     }
   },
@@ -187,8 +190,8 @@
         "awan@atlantaga.gov"
       ],
       "committees": [
-        "Finance/Executive - C",
-        "City Utilities",
+        "Finance/Executive - Chair",
+        "Committee on Council",
         "Transportation"
       ]
     }
@@ -215,9 +218,8 @@
         "hshook@atlantaga.gov"
       ],
       "committees": [
-        "City Utilities - C",
+        "City Utilities",
         "Finance/Executive",
-        "Zoning",
         "Committee on Council"
       ]
     }
@@ -246,7 +248,7 @@
       "committees": [
         "Zoning",
         "Public Safety",
-        "Committee on Council"
+        "Transportation"
       ]
     }
   },
@@ -273,9 +275,8 @@
       ],
       "committees": [
         "Public Safety and Legal Administration - Chair",
-        "Community Development/Human Services",
         "City Utilities",
-        "Committee on Council"
+        "Finance/Executive"
       ]
     }
   },
@@ -301,8 +302,7 @@
         "aboone@atlantaga.gov"
       ],
       "committees": [
-        "Committee on Council - C",
-        "Zoning",
+        "Committee on Council",
         "City Utilities",
         "Public Safety and Legal Administration"
       ]
@@ -330,9 +330,9 @@
         "mcoverstreet@atlantaga.gov"
       ],
       "committees": [
-        "Zoning - C",
-        "Transportation",
-        "Public Safety and Legal Administration"
+        "Zoning - Chair",
+        "Finance/Executive",
+        "Transportation"
       ]
     }
   },
@@ -359,8 +359,9 @@
       ],
       "committees": [
         "City Utilities",
-        "Committee on Council",
-        "Transportation"
+        "Community Development/Human Services",
+        "Transportation",
+        "Public Safety"
       ]
     }
   },
@@ -386,9 +387,9 @@
         "mbond@atlantaga.gov"
       ],
       "committees": [
-        "Finance",
+        "City Utilities",
         "Public Safety",
-        "Community Development/Human Services"
+        "Zoning"
       ]
     }
   },
@@ -414,10 +415,9 @@
         "mwestmoreland@atlantaga.gov"
       ],
       "committees": [
-        "Committee on Council",
+        "Finance",
         "Zoning",
-        "Community Development/Human Services",
-        "Transportation"
+        "Community Development/Human Services"
       ]
     }
   },
@@ -445,7 +445,7 @@
       "committees": [
         "Transportation",
         "Public Safety and Legal Administration",
-        "Finance/Executive"
+        "Community Development/Human Services"
       ]
     }
   }

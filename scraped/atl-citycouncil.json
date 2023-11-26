@@ -226,31 +226,7 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/mary-norwood",
-    "name": "Mary Norwood",
-    "district": "District 8",
-    "image": "/home/showpublishedimage/6427/637761329635970000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Suite 2900",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6051"
-      ],
-      "fax": [
-        "(404) 979-3678"
-      ],
-      "email": [
-        "mnorwood@atlantaga.gov"
-      ],
-      "committees": [
-        "Zoning",
-        "Public Safety",
-        "Transportation"
-      ]
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/dustin-hillis",
@@ -286,7 +262,31 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/marci-collier-overstreet",
-    "error": 503
+    "name": "Marci Collier Overstreet",
+    "district": "District 11",
+    "image": "/home/showpublishedimage/1568/636495627232600000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6054"
+      ],
+      "fax": [
+        "(404) 979-3681"
+      ],
+      "email": [
+        "mcoverstreet@atlantaga.gov"
+      ],
+      "committees": [
+        "Zoning - Chair",
+        "Finance/Executive",
+        "Transportation"
+      ]
+    }
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/antonio-lewis",

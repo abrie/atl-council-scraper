@@ -198,31 +198,7 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/howard-shook",
-    "name": "Howard Shook",
-    "district": "District 7",
-    "image": "/home/showpublishedimage/1572/636495627240430000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Suite 2900",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6050"
-      ],
-      "fax": [
-        "(404) 739-9244"
-      ],
-      "email": [
-        "hshook@atlantaga.gov"
-      ],
-      "committees": [
-        "City Utilities",
-        "Finance/Executive",
-        "Committee on Council"
-      ]
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/mary-norwood",

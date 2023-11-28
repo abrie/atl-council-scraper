@@ -1,57 +1,11 @@
 [
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/council-president-doug-shipman",
-    "name": "Council President Doug Shipman",
-    "district": "City Council President",
-    "image": "/home/showpublishedimage/6367/637758569389000000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Second Floor East",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6052"
-      ],
-      "fax": [
-        "(404) 739-9240"
-      ],
-      "email": [
-        "dshipman@atlantaga.gov",
-        "fmoore@atlantaga.gov"
-      ],
-      "committees": []
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/jason-winston",
-    "name": "Jason Winston",
-    "district": "District 1",
-    "image": "/home/showpublishedimage/6421/637761329613170000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Suite 2900",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6039"
-      ],
-      "fax": [
-        "(404) 739-4855"
-      ],
-      "email": [
-        "jwinston@atlantaga.gov"
-      ],
-      "committees": [
-        "City Utilities - Chair",
-        "Finance Executive",
-        "Community Development Human Services",
-        "Committee on Council"
-      ]
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/amir-r-farokhi",
@@ -170,9 +124,13 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/alex-wan",
-    "name": "Alex Wan",
-    "district": "District 6",
-    "image": "/home/showpublishedimage/6411/637761329573630000",
+    "error": 503
+  },
+  {
+    "href": "https://citycouncil.atlantaga.gov/council-members/howard-shook",
+    "name": "Howard Shook",
+    "district": "District 7",
+    "image": "/home/showpublishedimage/1572/636495627240430000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -181,24 +139,20 @@
         "Atlanta, GA 30303-3584"
       ],
       "phone": [
-        "(404) 330-6049"
+        "(404) 330-6050"
       ],
       "fax": [
-        "(404) 979-3677"
+        "(404) 739-9244"
       ],
       "email": [
-        "awan@atlantaga.gov"
+        "hshook@atlantaga.gov"
       ],
       "committees": [
-        "Finance/Executive - Chair",
-        "Committee on Council",
-        "Transportation"
+        "City Utilities",
+        "Finance/Executive",
+        "Committee on Council"
       ]
     }
-  },
-  {
-    "href": "https://citycouncil.atlantaga.gov/council-members/howard-shook",
-    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/mary-norwood",

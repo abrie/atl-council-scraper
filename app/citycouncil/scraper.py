@@ -45,7 +45,8 @@ def buildContact(strings):
         "Committee Assignments": "committees"
     }
 
-    remapped = {remapping.get(k, k): v for k, v in sections.items() if k in remapping}
+    remapped = {remapping.get(k, k): v for k,
+                v in sections.items() if k in remapping}
 
     return remapped
 
@@ -70,7 +71,7 @@ def extractEmails(p):
 def getCouncilMember(fetcher, href):
     text, status_code = fetcher.fetch(href)
     if status_code != 200:
-        return {'href': href, 'error': status_code}
+        return {'href': href, 'text': text, 'error': status_code}
 
     soup = BeautifulSoup(text, 'html.parser')
     name = soup.find("h1", ["titlewidget-title"]).find("span").contents[0]
@@ -91,7 +92,8 @@ def getCouncilMember(fetcher, href):
 
 
 def scrape(fetcher):
-    return [getCouncilMember(fetcher, href) for href in getAllCouncilMembers(fetcher)]
+    return [getCouncilMember(fetcher, href) for
+            href in getAllCouncilMembers(fetcher)]
 
 
 def run(args):

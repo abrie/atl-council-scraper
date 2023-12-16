@@ -1,57 +1,11 @@
 [
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/council-president-doug-shipman",
-    "name": "Council President Doug Shipman",
-    "district": "City Council President",
-    "image": "/home/showpublishedimage/6367/637758569389000000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Second Floor East",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6052"
-      ],
-      "fax": [
-        "(404) 739-9240"
-      ],
-      "email": [
-        "dshipman@atlantaga.gov",
-        "fmoore@atlantaga.gov"
-      ],
-      "committees": []
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/jason-winston",
-    "name": "Jason Winston",
-    "district": "District 1",
-    "image": "/home/showpublishedimage/6421/637761329613170000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Suite 2900",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6039"
-      ],
-      "fax": [
-        "(404) 739-4855"
-      ],
-      "email": [
-        "jwinston@atlantaga.gov"
-      ],
-      "committees": [
-        "City Utilities - Chair",
-        "Finance Executive",
-        "Community Development Human Services",
-        "Committee on Council"
-      ]
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/amir-r-farokhi",
@@ -113,9 +67,13 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/jason-s-dozier",
-    "name": "Jason S. Dozier",
-    "district": "District 4",
-    "image": "/home/showpublishedimage/6419/637761329604400000",
+    "error": 503
+  },
+  {
+    "href": "https://citycouncil.atlantaga.gov/council-members/liliana-bakhtiari",
+    "name": "Liliana Bakhtiari",
+    "district": "District 5",
+    "image": "/home/showpublishedimage/6425/637761329628930000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -124,24 +82,21 @@
         "Atlanta, GA 30303-3584"
       ],
       "phone": [
-        "(404) 330-6047"
+        "(404) 330-6048"
       ],
       "fax": [
-        "(404) 739-9238"
+        "(404) 739-4851"
       ],
       "email": [
-        "jdozier@atlantaga.gov"
+        "Lbakhtiari@atlantaga.gov"
       ],
       "committees": [
-        "City Utilities",
+        "Community Development/Human Services",
+        "Finance/Executive",
         "Zoning",
-        "Community Development Human Services - Chair"
+        "Committee on Council - Chair"
       ]
     }
-  },
-  {
-    "href": "https://citycouncil.atlantaga.gov/council-members/liliana-bakhtiari",
-    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/alex-wan",
@@ -185,59 +140,11 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/andrea-l-boone",
-    "name": "Andrea L. Boone",
-    "district": "District 10",
-    "image": "/home/showpublishedimage/1785/637770677498870000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Suite 2900",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6055"
-      ],
-      "fax": [
-        "(404) 979-3680"
-      ],
-      "email": [
-        "aboone@atlantaga.gov"
-      ],
-      "committees": [
-        "Committee on Council",
-        "City Utilities",
-        "Public Safety and Legal Administration"
-      ]
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/marci-collier-overstreet",
-    "name": "Marci Collier Overstreet",
-    "district": "District 11",
-    "image": "/home/showpublishedimage/1568/636495627232600000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Suite 2900",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6054"
-      ],
-      "fax": [
-        "(404) 979-3681"
-      ],
-      "email": [
-        "mcoverstreet@atlantaga.gov"
-      ],
-      "committees": [
-        "Zoning - Chair",
-        "Finance/Executive",
-        "Transportation"
-      ]
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/antonio-lewis",
@@ -298,7 +205,31 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/matt-westmoreland",
-    "error": 503
+    "name": "Matt Westmoreland",
+    "district": "Post 2 at Large",
+    "image": "/home/showpublishedimage/6429/637761329660030000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6302"
+      ],
+      "fax": [
+        "(404) 979-3682"
+      ],
+      "email": [
+        "mwestmoreland@atlantaga.gov"
+      ],
+      "committees": [
+        "Finance",
+        "Zoning",
+        "Community Development/Human Services"
+      ]
+    }
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/keisha-sean-waites",

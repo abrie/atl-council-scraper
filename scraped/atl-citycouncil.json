@@ -5,13 +5,9 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/jason-winston",
-    "error": 503
-  },
-  {
-    "href": "https://citycouncil.atlantaga.gov/council-members/amir-r-farokhi",
-    "name": "Amir R. Farokhi",
-    "district": "District 2",
-    "image": "/home/showpublishedimage/1590/636770106214530000",
+    "name": "Jason Winston",
+    "district": "District 1",
+    "image": "/home/showpublishedimage/6421/637761329613170000",
     "contact": {
       "office": [
         "Atlanta City Hall",
@@ -20,50 +16,29 @@
         "Atlanta, GA 30303-3584"
       ],
       "phone": [
-        "(404) 330-6038"
+        "(404) 330-6039"
       ],
       "fax": [
-        "(404) 979-3676"
+        "(404) 739-4855"
       ],
       "email": [
-        "arfarokhi@atlantaga.gov"
+        "jwinston@atlantaga.gov"
       ],
       "committees": [
-        "Transportation - Chair",
-        "Zoning",
+        "City Utilities - Chair",
+        "Finance Executive",
+        "Community Development Human Services",
         "Committee on Council"
       ]
     }
   },
   {
+    "href": "https://citycouncil.atlantaga.gov/council-members/amir-r-farokhi",
+    "error": 503
+  },
+  {
     "href": "https://citycouncil.atlantaga.gov/council-members/byron-amos",
-    "name": "Byron Amos",
-    "district": "District 3",
-    "image": "/home/showpublishedimage/6415/637761329589730000",
-    "contact": {
-      "office": [
-        "Atlanta City Hall",
-        "55 Trinity Ave, S.W.",
-        "Suite 2900",
-        "Atlanta, GA 30303-3584"
-      ],
-      "phone": [
-        "(404) 330-6046"
-      ],
-      "fax": [
-        "(404) 739-9242"
-      ],
-      "email": [
-        "bdamos@atlantaga.gov",
-        "ATLCouncildistrict3@atlantaga.gov"
-      ],
-      "committees": [
-        "Community Development / Human Services",
-        "Committee on Council - VC",
-        "Public Safety - VC",
-        "Transportation"
-      ]
-    }
+    "error": 503
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/jason-s-dozier",
@@ -100,7 +75,31 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/alex-wan",
-    "error": 503
+    "name": "Alex Wan",
+    "district": "District 6",
+    "image": "/home/showpublishedimage/6411/637761329573630000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6049"
+      ],
+      "fax": [
+        "(404) 979-3677"
+      ],
+      "email": [
+        "awan@atlantaga.gov"
+      ],
+      "committees": [
+        "Finance/Executive - Chair",
+        "Committee on Council",
+        "Transportation"
+      ]
+    }
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/howard-shook",
@@ -144,7 +143,31 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/marci-collier-overstreet",
-    "error": 503
+    "name": "Marci Collier Overstreet",
+    "district": "District 11",
+    "image": "/home/showpublishedimage/1568/636495627232600000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6054"
+      ],
+      "fax": [
+        "(404) 979-3681"
+      ],
+      "email": [
+        "mcoverstreet@atlantaga.gov"
+      ],
+      "committees": [
+        "Zoning - Chair",
+        "Finance/Executive",
+        "Transportation"
+      ]
+    }
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/antonio-lewis",
@@ -233,6 +256,30 @@
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/keisha-sean-waites",
-    "error": 503
+    "name": "Keisha Sean Waites",
+    "district": "Post 3 at Large",
+    "image": "/home/showpublishedimage/6423/637761329620970000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Suite 2900",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6041"
+      ],
+      "fax": [
+        "(404) 739-9250"
+      ],
+      "email": [
+        "kwaites@atlantaga.gov"
+      ],
+      "committees": [
+        "Transportation",
+        "Public Safety and Legal Administration",
+        "Community Development/Human Services"
+      ]
+    }
   }
 ]

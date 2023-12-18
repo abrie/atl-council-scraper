@@ -1,7 +1,28 @@
 [
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/council-president-doug-shipman",
-    "error": 503
+    "name": "Council President Doug Shipman",
+    "district": "City Council President",
+    "image": "/home/showpublishedimage/6367/637758569389000000",
+    "contact": {
+      "office": [
+        "Atlanta City Hall",
+        "55 Trinity Ave, S.W.",
+        "Second Floor East",
+        "Atlanta, GA 30303-3584"
+      ],
+      "phone": [
+        "(404) 330-6052"
+      ],
+      "fax": [
+        "(404) 739-9240"
+      ],
+      "email": [
+        "dshipman@atlantaga.gov",
+        "fmoore@atlantaga.gov"
+      ],
+      "committees": []
+    }
   },
   {
     "href": "https://citycouncil.atlantaga.gov/council-members/jason-winston",
